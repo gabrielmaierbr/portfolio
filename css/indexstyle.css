@@ -7,6 +7,8 @@
     user-select: none;
 }
 
+
+
 header
 {
     display: flex;
@@ -164,4 +166,58 @@ img
     margin: 0 20px;
     user-select: none;
     transition: 0.8s;
+}
+
+@media only screen and (max-width: 768px)
+{
+    header
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .container nav section a
+    {
+        padding: 15px 25px;
+        margin: 10px;
+    }
+    .conteudo
+    {
+        padding: 50px 120px;
+        margin: 10px;
+    }
+
+    #user
+    {
+        height: 90px;
+        width: 175px;
+        border-radius: 5px;
+        user-select: none;
+        align-items: center;
+        transition: 0.8s;
+        opacity: 0.2;
+    }
+
+    #nome
+    {
+        padding: 2.5px;
+    }
+
+    .perfil
+    {
+        display: inline;
+    }
+
+    img
+    {
+        height: 40px;
+        width: 40px;
+        margin: 10px;
+        padding: 0;
+    }
+    footer
+    {
+        display: inline;
+        margin-left: 45px;
+        padding: 0;
+    }
 }
