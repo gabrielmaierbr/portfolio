@@ -81,13 +81,12 @@ body
 .conteudo
 {
     font-family: "Roboto", sans-serif;
-    opacity: 0.8;
     color: black;
     box-shadow: 0 0 4px black;
     border-radius: 15px;
     padding: 200px 630px;
     margin-top: 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.7);
     float: left;
 }
 
